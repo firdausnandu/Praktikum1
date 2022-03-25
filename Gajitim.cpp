@@ -37,3 +37,27 @@ void gajideveloper::tampil(){
 		cout<<"Gaji tim 2 adalah : "<<gaji2;
 	}
 }
+void gajideveloper::struk(){
+	cout<<"\n\n<<Slip Gaji>>>"<<endl;
+	cout<<"Nama       : Tim Fitur Login"<<endl;
+	cout<<"Jabatan    : Developer"<<endl;
+	cout<<"Gaji Pokok : "<<gaji1<<endl;
+	cout<<"Bonus      : "<<bonusA<<endl;
+	cout<<"Gaji Setelah Bonus : "<<bonus1;
+	
+	cout<<"\n\n<<Slip Gaji>>>"<<endl;
+	cout<<"Nama       : Tim Fitur Login"<<endl;
+	cout<<"Jabatan    : Developer"<<endl;
+	cout<<"Gaji Pokok : "<<gaji2<<endl;
+	cout<<"Bonus      : "<<bonusB<<endl;
+	cout<<"Gaji Setelah Bonus : "<<bonus2;
+	
+}
+
+main(){
+	gajideveloper x;
+	x.input();
+	x.proses();
+	x.tampil();
+	x.struk();
+}
