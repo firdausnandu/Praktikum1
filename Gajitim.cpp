@@ -17,3 +17,23 @@ void gajideveloper::input(){
 	cout<<"Selesai Berapa Bulan : ";cin>>bulan;
 	cout<<endl;
 }
+void gajideveloper::proses(){
+	gaji1=22000000;
+	gaji2=28000000;
+	bonus1=(0.06*22000000)+gaji1;
+	bonus2=(0.06*28000000)+gaji2;
+	bonusA=0.06*22000000;
+	bonusB=0.06*28000000;
+	
+	
+}
+void gajideveloper::tampil(){
+	if (bulan <= 5){
+		cout<<"Gaji tim 1 adalah : "<<bonus1<<" (Bonus 6%)"<<endl;;
+		cout<<"Gaji tim 2 adalah : "<<bonus2<<" (Bonus 6%)";
+	}
+	else{
+		cout<<"Gaji tim 1 adalah : "<<gaji1<<endl;
+		cout<<"Gaji tim 2 adalah : "<<gaji2;
+	}
+}
