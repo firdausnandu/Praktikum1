@@ -46,7 +46,7 @@ void gajideveloper::struk(){
 	cout<<"Gaji Setelah Bonus : "<<bonus1;
 	
 	cout<<"\n\n<<Slip Gaji>>>"<<endl;
-	cout<<"Nama       : Tim Fitur Login"<<endl;
+	cout<<"Nama       : Tim Fitur Responsive"<<endl;
 	cout<<"Jabatan    : Developer"<<endl;
 	cout<<"Gaji Pokok : "<<gaji2<<endl;
 	cout<<"Bonus      : "<<bonusB<<endl;
